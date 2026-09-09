@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Boburbek &amp; Sevinchxon — Nikoh to'yi taklifnomasi</title>
+<meta name="description" content="Boburbek va Sevinchxonning nikoh to'yi taklifnomasi — 4-oktabr, soat 18:00, Navbahor tumani, Beshrabot qo'rg'oni, &quot;Tanho&quot; to'yxonasi." />
+<meta name="theme-color" content="#FAF7F2" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Boburbek &amp; Sevinchxon — Nikoh to'yi taklifnomasi" />
+<meta property="og:description" content="4-oktabr, soat 18:00 — &quot;Tanho&quot; to'yxonasi, Beshrabot qo'rg'oni, Navbahor tumani." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%238E2B22'/%3E%3Ctext x='50' y='66' font-size='44' font-family='Georgia,serif' font-style='italic' fill='%23E8C88A' text-anchor='middle'%3EBS%3C/text%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          cream:     '#FAF7F2',
+          ivory:     '#FFFDF9',
+          champagne: '#C5A880',
+          gold:      '#D4AF37',
+          goldsoft:  '#E4CB92',
+          charcoal:  '#2A2723',
+          muted:     '#7C7469',
+          wax:       '#8E2B22',
+          waxdark:   '#5F1712'
+        },
+        fontFamily: {
+          display: ['"Playfair Display"', 'Georgia', 'serif'],
+          serifel: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+          sans:    ['Montserrat', 'system-ui', 'sans-serif']
+        }
+      }
+    }
+  };
+</script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+<style>
+  :root{
+    --cream:#FAF7F2; --ivory:#FFFDF9; --champagne:#C5A880; --gold:#D4AF37;
+    --charcoal:#2A2723; --muted:#7C7469; --wax:#8E2B22;
+  }
+  html{ scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+  body{
+    margin:0; background:#EAE3D9; color:var(--charcoal);
+    font-family:Montserrat, system-ui, sans-serif;
+    overflow-x:hidden;
+  }
+  body.locked{ overflow:hidden; height:100%; }
+
+  /* ---------- Qog'oz fakturasi ---------- */
+  .paper{
+    background-color:var(--cream);
+    background-image:
+      radial-gradient(circle at 18% 12%, rgba(197,168,128,.10), transparent 45%),
+      radial-gradient(circle at 84% 88%, rgba(197,168,128,.10), transparent 45%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");
+  }
+
+  /* ---------- Sahifa idishi (mobil ko'rinish, keng ekranda markazda) ---------- */
+  #shell{
+    position:relative; width:100%; max-width:480px; margin:0 auto; min-height:100vh;
+    box-shadow:0 30px 90px rgba(42,39,35,.22), 0 2px 0 rgba(255,255,255,.6) inset;
+  }
+  #fx{ position:fixed; top:0; height:100vh; z-index:0; pointer-events:none; }
+  #content{ position:relative; z-index:1; }
+
+  /* ---------- Oltin matn ---------- */
+  .gilded{
+    background:linear-gradient(100deg,#9C7A3C 0%,#C9A768 18%,#F2E3BC 40%,#D4AF37 58%,#B08F49 78%,#8E6F35 100%);
+    -webkit-background-clip:text; background-clip:text;
+    color:transparent; -webkit-text-fill-color:transparent;
+  }
+  .tracking-luxe{ letter-spacing:.34em; }
+
+  /* ---------- Bezaklar ---------- */
+  .rule{ height:1px; background:linear-gradient(90deg,transparent,rgba(197,168,128,.75),transparent); }
+  .card{
+    background:linear-gradient(180deg,rgba(255,255,255,.92),rgba(255,253,249,.78));
+    border:1px solid rgba(197,168,128,.38);
+    border-radius:18px;
+    box-shadow:0 14px 40px rgba(42,39,35,.07), 0 1px 0 rgba(255,255,255,.9) inset;
+    backdrop-filter:blur(2px);
+  }
+  .corner-ribbon{
+    position:absolute; width:120px; height:120px; pointer-events:none; opacity:.9;
+  }
+
+  /* ---------- Ochilish animatsiyalari ---------- */
+  .reveal{ opacity:0; transform:translateY(26px); }
+  .reveal.in{ opacity:1; transform:none; transition:opacity 1.05s cubic-bezier(.2,.7,.2,1), transform 1.05s cubic-bezier(.2,.7,.2,1); }
+  .d1{ transition-delay:.10s } .d2{ transition-delay:.20s } .d3{ transition-delay:.30s }
+  .d4{ transition-delay:.40s } .d5{ transition-delay:.50s } .d6{ transition-delay:.60s }
+
+  @keyframes floaty{ 0%,100%{ transform:translateY(0) } 50%{ transform:translateY(-7px) } }
+  .floaty{ animation:floaty 5.5s ease-in-out infinite; }
+  @keyframes pulsering{ 0%{ transform:scale(.8); opacity:.55 } 100%{ transform:scale(1.9); opacity:0 } }
+  @keyframes spinslow{ to{ transform:rotate(360deg) } }
+  @keyframes shimmer{ 0%{ background-position:-220% 0 } 100%{ background-position:220% 0 } }
+  .shimmer{ background-size:220% auto; animation:shimmer 7s linear infinite; }
+
+  /* ---------- KONVERT (gate) ---------- */
+  #gate{
+    position:fixed; top:0; height:100%; z-index:60;
+    perspective:1600px; perspective-origin:50% 45%;
+  }
+  #gate.gone{ display:none; }
+  .gate-half{
+    position:absolute; top:0; height:100%; width:calc(50% + 0.5px); overflow:hidden;
+    backface-visibility:hidden; transform-style:preserve-3d;
+    transition:transform 1.5s cubic-bezier(.65,.02,.32,1), filter 1.5s ease, opacity .6s ease 1.15s;
+    will-change:transform;
+  }
+  .gate-l{ left:0;  transform-origin:left center;  box-shadow:inset -22px 0 34px -22px rgba(42,39,35,.35); }
+  .gate-r{ right:0; transform-origin:right center; box-shadow:inset  22px 0 34px -22px rgba(42,39,35,.35); }
+  #gate.opening .gate-l{ transform:rotateY(-108deg); filter:brightness(.72); opacity:0; }
+  #gate.opening .gate-r{ transform:rotateY( 108deg); filter:brightness(.72); opacity:0; }
+  .gate-inner{ position:absolute; top:0; width:calc(200% - 1px); height:100%; }
+  .gate-l .gate-inner{ left:0; }
+  .gate-r .gate-inner{ left:calc(-100% + 1px); }
+
+  .ribbon{
+    position:absolute; left:50%; top:0; width:54px; height:100%; transform:translateX(-50%);
+    background:linear-gradient(90deg,#A9803F 0%,#D9BC85 18%,#F4E6C4 38%,#DCC08B 58%,#B8925C 80%,#8F6C33 100%);
+    box-shadow:0 0 26px rgba(160,124,60,.28);
+  }
+
+  .band{
+    position:relative; padding:18px 0;
+    width:calc(100% + 64px); margin-left:-32px;
+    background:radial-gradient(ellipse 58% 130% at 50% 50%,rgba(250,247,242,.99) 0%,rgba(250,247,242,.97) 46%,rgba(250,247,242,.55) 72%,rgba(250,247,242,0) 88%);
+  }
+
+  #sealWrap{
+    position:absolute; left:50%; top:50%; width:168px; height:168px;
+    transform:translate(-50%,-50%); cursor:pointer; z-index:3;
+    -webkit-tap-highlight-color:transparent;
+  }
+  #sealWrap:focus-visible{ outline:2px solid var(--champagne); outline-offset:14px; border-radius:50%; }
+  .seal-half{
+    position:absolute; inset:0;
+    transition:transform 1s cubic-bezier(.34,1.4,.5,1), opacity .9s ease .25s;
+    filter:drop-shadow(0 10px 16px rgba(60,16,12,.38));
+  }
+  .seal-half.l{ clip-path:inset(0 49.6% 0 0); }
+  .seal-half.r{ clip-path:inset(0 0 0 50%); }
+  #gate.opening .seal-half.l{ transform:translate(-58px,26px) rotate(-26deg); opacity:0; }
+  #gate.opening .seal-half.r{ transform:translate( 58px,26px) rotate( 26deg); opacity:0; }
+  #sealWrap.press{ animation:sealpress .16s ease; }
+  @keyframes sealpress{ 50%{ transform:translate(-50%,-50%) scale(.94) } }
+  #sealHint{
+    position:absolute; inset:-16px; border-radius:50%; border:1px solid rgba(142,43,34,.45);
+    animation:pulsering 2.6s ease-out infinite; pointer-events:none;
+  }
+  #gate.opening #sealHint{ display:none; }
+  #burst{ position:absolute; inset:0; z-index:4; pointer-events:none; }
+
+  /* ---------- Countdown ---------- */
+  .cd-box{
+    display:flex; align-items:center; justify-content:center; gap:2px;
+    padding:14px 10px; border-radius:14px;
+    border:1px solid rgba(197,168,128,.55);
+    box-shadow:0 0 0 4px rgba(255,255,255,.55), 0 12px 30px rgba(42,39,35,.08);
+    background:linear-gradient(180deg,#FFFDF9,#F7F1E7);
+  }
+  .cd-cell{ min-width:60px; text-align:center; }
+  .cd-num{
+    font-family:'Playfair Display',serif; font-size:30px; line-height:1;
+    color:var(--charcoal); font-variant-numeric:tabular-nums; display:block;
+  }
+  .cd-lab{ font-size:9.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); margin-top:7px; display:block; }
+  .cd-sep{ font-family:'Playfair Display',serif; font-size:24px; color:rgba(197,168,128,.85); transform:translateY(-8px); }
+
+  /* ---------- Tugmalar ---------- */
+  .btn{
+    display:flex; align-items:center; justify-content:center; gap:10px; width:100%;
+    padding:14px 18px; border-radius:12px; font-size:12.5px; font-weight:500;
+    letter-spacing:.06em; transition:transform .25s ease, box-shadow .25s ease, background .25s ease;
+  }
+  .btn:active{ transform:scale(.985); }
+  .btn-gold{
+    color:#3A2F17; border:1px solid rgba(160,124,60,.5);
+    background:linear-gradient(100deg,#C9A768,#E7D3A4 45%,#C5A880 70%,#B08F49);
+    box-shadow:0 10px 24px rgba(160,124,60,.24);
+  }
+  .btn-gold:hover{ box-shadow:0 14px 30px rgba(160,124,60,.34); }
+  .btn-ghost{
+    color:var(--charcoal); background:rgba(255,255,255,.7);
+    border:1px solid rgba(197,168,128,.5);
+  }
+  .btn-ghost:hover{ background:#fff; }
+
+  /* ---------- Forma ---------- */
+  .fld{
+    width:100%; padding:13px 15px; border-radius:11px; font-size:13px;
+    background:rgba(255,255,255,.85); border:1px solid rgba(197,168,128,.45);
+    color:var(--charcoal); outline:none; transition:border-color .2s, box-shadow .2s;
+    font-family:Montserrat,sans-serif;
+  }
+  .fld::placeholder{ color:#B3AAA0; }
+  .fld:focus{ border-color:var(--champagne); box-shadow:0 0 0 3px rgba(197,168,128,.18); }
+  .opt{
+    display:flex; align-items:center; gap:11px; padding:13px 15px; border-radius:11px; cursor:pointer;
+    background:rgba(255,255,255,.7); border:1px solid rgba(197,168,128,.35);
+    font-size:12.5px; transition:all .22s ease;
+  }
+  .opt .dot{ width:16px; height:16px; border-radius:50%; border:1.5px solid rgba(197,168,128,.8); position:relative; flex:none; }
+  .opt input{ position:absolute; opacity:0; pointer-events:none; }
+  .opt input:checked + .dot::after{
+    content:''; position:absolute; inset:3px; border-radius:50%;
+    background:linear-gradient(140deg,#D4AF37,#B08F49);
+  }
+  .opt:has(input:checked){ border-color:var(--champagne); background:#fff; box-shadow:0 6px 18px rgba(197,168,128,.18); }
+
+  /* ---------- Musiqa tugmasi ---------- */
+  #musicBtn{
+    position:fixed; bottom:22px; z-index:65; width:52px; height:52px; border-radius:50%;
+    display:none; align-items:center; justify-content:center;
+    background:linear-gradient(140deg,#EBD9AE,#C5A880 60%,#A9803F);
+    color:#3A2F17; border:1px solid rgba(255,255,255,.5);
+    box-shadow:0 10px 26px rgba(120,92,42,.34);
+  }
+  #musicBtn.show{ display:flex; }
+  #musicBtn .disc{ display:block; }
+  #musicBtn.playing .disc{ animation:spinslow 4.5s linear infinite; }
+  #musicBtn::before{
+    content:''; position:absolute; inset:-6px; border-radius:50%;
+    border:1px solid rgba(197,168,128,.6); animation:pulsering 2.8s ease-out infinite;
+  }
+
+  /* ---------- Toast / Modal ---------- */
+  #toast{
+    position:fixed; left:50%; bottom:96px; transform:translate(-50%,20px); z-index:70;
+    opacity:0; pointer-events:none; transition:opacity .35s ease, transform .35s ease;
+    padding:12px 20px; border-radius:999px; font-size:12px; color:#3A2F17;
+    background:linear-gradient(100deg,#EBD9AE,#F5EAD0);
+    border:1px solid rgba(160,124,60,.4); box-shadow:0 12px 30px rgba(42,39,35,.16);
+    max-width:82vw; text-align:center;
+  }
+  #toast.show{ opacity:1; transform:translate(-50%,0); }
+  @media (prefers-reduced-motion: reduce){
+    *{ animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.15s !important; }
+    html{ scroll-behavior:auto; }
+  }
+</style>
+</head>
+<body class="locked">
+
+<canvas id="fx" aria-hidden="true"></canvas>
+
+<main id="shell" class="paper">
+  <div id="content">
+
+    <!-- ============ 1. HERO — ASOSIY VARAQ ============ -->
+    <section class="relative px-7 pt-14 pb-16 text-center overflow-hidden">
+      <svg class="corner-ribbon" style="top:-6px; right:-6px;" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+        <defs><linearGradient id="gr1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#F2E3BC"/><stop offset=".5" stop-color="#D4AF37"/><stop offset="1" stop-color="#A9803F"/>
+        </linearGradient></defs>
+        <path d="M120 6 L6 120" stroke="url(#gr1)" stroke-width="9" opacity=".38"/>
+        <path d="M120 30 L30 120" stroke="url(#gr1)" stroke-width="3" opacity=".45"/>
+        <path d="M120 44 L44 120" stroke="url(#gr1)" stroke-width="1.4" opacity=".4"/>
+      </svg>
+      <svg class="corner-ribbon" style="bottom:-6px; left:-6px; transform:scaleX(-1);" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+        <path d="M120 6 L6 120" stroke="url(#gr1)" stroke-width="9" opacity=".22"/>
+        <path d="M120 30 L30 120" stroke="url(#gr1)" stroke-width="3" opacity=".28"/>
+      </svg>
+
+      <p class="reveal d1 font-serifel text-[13px] tracking-[.2em] text-champagne">Bismillahir Rohmanir Rohiym</p>
+
+      <div class="reveal d2 mt-7 flex justify-center">
+        <div class="relative w-24 h-24 rounded-full flex items-center justify-center floaty"
+             style="border:1px solid rgba(197,168,128,.7); box-shadow:0 0 0 6px rgba(255,255,255,.6), 0 10px 30px rgba(42,39,35,.1);">
+          <span class="absolute inset-2 rounded-full" style="border:1px dashed rgba(197,168,128,.45)"></span>
+          <span class="font-display italic text-[26px] gilded shimmer">B &amp; S</span>
+        </div>
+      </div>
+
+      <p class="reveal d3 mt-8 font-sans text-[9.5px] tracking-luxe uppercase text-muted">Ikki qalb rishtasi</p>
+
+      <h1 class="reveal d3 mt-4 font-serifel italic leading-[1.05]">
+        <span class="block text-[46px] gilded">Boburbek</span>
+        <span class="block text-[22px] my-1 text-champagne">&amp;</span>
+        <span class="block text-[46px] gilded">Sevinchxon</span>
+      </h1>
+
+      <div class="reveal d4 mt-8 flex items-center justify-center gap-3">
+        <span class="rule w-16"></span>
+        <svg width="24" height="10" viewBox="0 0 24 10" fill="none" aria-hidden="true">
+          <path d="M12 1.6 C10.6.2 8.2.4 7.2 2c-1 1.7.2 3.6 1.8 4.8L12 9l3-2.2c1.6-1.2 2.8-3.1 1.8-4.8C15.8.4 13.4.2 12 1.6Z" fill="#C5A880"/>
+        </svg>
+        <span class="rule w-16"></span>
+      </div>
+
+      <p class="reveal d5 mt-7 font-display text-[19px] text-charcoal">4-oktabr</p>
+      <p class="reveal d5 mt-1.5 font-sans text-[11px] tracking-[.28em] text-muted">SOAT 18:00</p>
+      <p class="reveal d6 mt-5 font-serifel text-[13.5px] text-muted leading-relaxed">
+        Navbahor tumani, Beshrabot qo'rg'oni<br />“Tanho” to'yxonasi
+      </p>
+
+      <div class="reveal d6 mt-12 flex flex-col items-center gap-2 text-champagne">
+        <span class="font-sans text-[8.5px] tracking-luxe uppercase">Pastga suring</span>
+        <i data-lucide="chevron-down" class="w-4 h-4 floaty"></i>
+      </div>
+    </section>
+
+    <!-- ============ 2. TAKLIF MATNI ============ -->
+    <section class="px-6 pb-16">
+      <div class="reveal card relative px-7 py-11 text-center overflow-hidden">
+        <span class="absolute left-4 top-4 w-7 h-7 border-l border-t rounded-tl-lg" style="border-color:rgba(197,168,128,.7)"></span>
+        <span class="absolute right-4 top-4 w-7 h-7 border-r border-t rounded-tr-lg" style="border-color:rgba(197,168,128,.7)"></span>
+        <span class="absolute left-4 bottom-4 w-7 h-7 border-l border-b rounded-bl-lg" style="border-color:rgba(197,168,128,.7)"></span>
+        <span class="absolute right-4 bottom-4 w-7 h-7 border-r border-b rounded-br-lg" style="border-color:rgba(197,168,128,.7)"></span>
+
+        <i data-lucide="mail-open" class="w-6 h-6 mx-auto text-champagne"></i>
+        <h2 class="mt-5 font-display text-[21px] text-charcoal">Taklif matni</h2>
+        <span class="rule w-20 mx-auto my-5 block"></span>
+
+        <p class="font-serifel text-[17px] leading-[1.85] text-charcoal">
+          Hurmatli qadrdonimiz! Sizni hayotimizdagi eng quvonchli va unutilmas kun —
+          nikoh to'yimiz tantanasida aziz mehmonimiz bo'lishga chin dildan taklif etamiz.
+        </p>
+        <p class="mt-6 font-sans text-[11.5px] leading-[1.9] text-muted italic">
+          Sizning tashrifingiz bizning quvonchimizga fayz bag'ishlaydi.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ 3. HISOBLAGICH ============ -->
+    <section class="px-6 pb-16 text-center">
+      <p class="reveal font-sans text-[9.5px] tracking-luxe uppercase text-muted">Nikoh kechasiga qoldi</p>
+      <h2 class="reveal d1 mt-3 font-display text-[21px] text-charcoal">Jonli hisoblagich</h2>
+      <span class="reveal d1 rule w-20 mx-auto my-6 block"></span>
+
+      <div class="reveal d2 cd-box" role="timer" aria-live="off">
+        <div class="cd-cell"><span class="cd-num" id="cd-d">00</span><span class="cd-lab">Kun</span></div>
+        <span class="cd-sep">:</span>
+        <div class="cd-cell"><span class="cd-num" id="cd-h">00</span><span class="cd-lab">Soat</span></div>
+        <span class="cd-sep">:</span>
+        <div class="cd-cell"><span class="cd-num" id="cd-m">00</span><span class="cd-lab">Daqiqa</span></div>
+        <span class="cd-sep">:</span>
+        <div class="cd-cell"><span class="cd-num" id="cd-s">00</span><span class="cd-lab">Soniya</span></div>
+      </div>
+      <p class="reveal d3 mt-5 font-serifel text-[14px] text-muted" id="cdNote">4-oktabr, soat 18:00</p>
+    </section>
+
+    <!-- ============ 4. TADBIR TARTIBI ============ -->
+    <section class="px-6 pb-16">
+      <div class="text-center">
+        <p class="reveal font-sans text-[9.5px] tracking-luxe uppercase text-muted">Oqshom dasturi</p>
+        <h2 class="reveal d1 mt-3 font-display text-[21px] text-charcoal">Tadbir tartibi</h2>
+        <span class="reveal d1 rule w-20 mx-auto my-6 block"></span>
+      </div>
+
+      <div class="relative pl-9">
+        <span class="absolute left-[15px] top-3 bottom-3 w-px" style="background:linear-gradient(180deg,transparent,rgba(197,168,128,.75),transparent)"></span>
+
+        <div class="reveal d2 relative mb-4">
+          <span class="absolute -left-9 top-5 w-[30px] h-[30px] rounded-full flex items-center justify-center bg-ivory" style="border:1px solid rgba(197,168,128,.7)">
+            <i data-lucide="users" class="w-[13px] h-[13px] text-champagne"></i>
+          </span>
+          <div class="card px-5 py-4">
+            <p class="font-display text-[15px] gilded">18:00</p>
+            <p class="mt-1 font-sans text-[12px] text-charcoal">Mehmonlar tashrifi va kutib olish</p>
+          </div>
+        </div>
+
+        <div class="reveal d3 relative mb-4">
+          <span class="absolute -left-9 top-5 w-[30px] h-[30px] rounded-full flex items-center justify-center bg-ivory" style="border:1px solid rgba(197,168,128,.7)">
+            <i data-lucide="sparkles" class="w-[13px] h-[13px] text-champagne"></i>
+          </span>
+          <div class="card px-5 py-4">
+            <p class="font-display text-[15px] gilded">18:30</p>
+            <p class="mt-1 font-sans text-[12px] text-charcoal">Kelin-kuyovning tantanali kirib kelishi</p>
+          </div>
+        </div>
+
+        <div class="reveal d4 relative">
+          <span class="absolute -left-9 top-5 w-[30px] h-[30px] rounded-full flex items-center justify-center bg-ivory" style="border:1px solid rgba(197,168,128,.7)">
+            <i data-lucide="utensils-crossed" class="w-[13px] h-[13px] text-champagne"></i>
+          </span>
+          <div class="card px-5 py-4">
+            <p class="font-display text-[15px] gilded">19:00</p>
+            <p class="mt-1 font-sans text-[12px] text-charcoal">Nikoh to'yi oqshomi va dasturxon</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. MANZIL VA LOKATSIYA ============ -->
+    <section class="px-6 pb-16">
+      <div class="text-center">
+        <p class="reveal font-sans text-[9.5px] tracking-luxe uppercase text-muted">Tantana manzili</p>
+        <h2 class="reveal d1 mt-3 font-display text-[21px] text-charcoal">Manzil va lokatsiya</h2>
+        <span class="reveal d1 rule w-20 mx-auto my-6 block"></span>
+      </div>
+
+      <div class="reveal d2 card p-5">
+        <div class="text-center">
+          <p class="font-serifel italic text-[24px] gilded">“Tanho” to'yxonasi</p>
+          <p class="mt-2 font-sans text-[11.5px] text-muted leading-relaxed">
+            Navbahor tumani, Beshrabot qo'rg'oni<br />Navoiy viloyati
+          </p>
+        </div>
+
+        <!-- Xarita ko'rinishi -->
+        <button id="mapCard" class="mt-5 block w-full rounded-xl overflow-hidden relative" style="border:1px solid rgba(197,168,128,.45)" aria-label="Xaritani ochish">
+          <svg viewBox="0 0 400 240" class="w-full h-auto block" role="img" aria-label="Tanho to'yxonasi joylashuvi">
+            <rect width="400" height="240" fill="#EDE8DE"/>
+            <path d="M0 150 Q80 132 150 152 T400 138 L400 240 L0 240 Z" fill="#E2E9DC"/>
+            <path d="M232 0 L268 240" stroke="#CFE3EF" stroke-width="16" fill="none" opacity=".85"/>
+            <g stroke="#FFFFFF" stroke-width="9" stroke-linecap="round">
+              <path d="M-10 96 L410 82"/><path d="M-10 186 L410 176"/>
+              <path d="M96 -10 L112 250"/><path d="M320 -10 L336 250"/>
+            </g>
+            <g stroke="#F6F2EA" stroke-width="4" stroke-linecap="round" opacity=".95">
+              <path d="M-10 140 L410 130"/><path d="M180 -10 L192 250"/><path d="M40 -10 L52 250"/>
+            </g>
+            <g fill="#E3DDD1" opacity=".9">
+              <rect x="20" y="20" width="58" height="44" rx="4"/><rect x="130" y="24" width="38" height="40" rx="4"/>
+              <rect x="130" y="196" width="42" height="34" rx="4"/><rect x="352" y="100" width="42" height="52" rx="4"/>
+              <rect x="20" y="196" width="26" height="30" rx="4"/>
+            </g>
+            <rect x="204" y="102" width="96" height="60" rx="6" fill="#DCCFAF" opacity=".75"/>
+            <text x="14" y="86" font-family="Montserrat,sans-serif" font-size="11" fill="#8A8375">Beshrabot</text>
+            <text x="300" y="212" font-family="Montserrat,sans-serif" font-size="10" fill="#9A9385">Navbahor t.</text>
+            <g transform="translate(240,96)">
+              <ellipse cx="0" cy="34" rx="11" ry="4" fill="rgba(0,0,0,.18)"/>
+              <path d="M0 34 C0 34 -15 15 -15 4 A15 15 0 1 1 15 4 C15 15 0 34 0 34 Z" fill="#C0392B" stroke="#8E2B22" stroke-width="1.4"/>
+              <circle cx="0" cy="4" r="5.4" fill="#FFF6EA"/>
+            </g>
+            <g transform="translate(258,128)">
+              <rect x="0" y="0" width="124" height="24" rx="6" fill="#FFFDF9" stroke="rgba(197,168,128,.6)"/>
+              <text x="10" y="16" font-family="Montserrat,sans-serif" font-size="10.5" fill="#2A2723">“Tanho” to'yxonasi</text>
+            </g>
+          </svg>
+          <span class="absolute inset-0" style="background:linear-gradient(180deg,transparent 62%,rgba(42,39,35,.06))"></span>
+        </button>
+
+        <div class="mt-4 grid gap-2.5">
+          <a id="gmapBtn" class="btn btn-gold" target="_blank" rel="noopener noreferrer" href="#">
+            <i data-lucide="map-pin" class="w-4 h-4"></i><span>Google Maps orqali ochish</span>
+          </a>
+          <a id="ymapBtn" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" href="#">
+            <i data-lucide="navigation" class="w-4 h-4 text-champagne"></i><span>Yandex Maps orqali ochish</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. TAQVIMGA QO'SHISH ============ -->
+    <section class="px-6 pb-16">
+      <div class="reveal card px-6 py-9 text-center">
+        <i data-lucide="calendar-heart" class="w-6 h-6 mx-auto text-champagne"></i>
+        <h2 class="mt-4 font-display text-[20px] text-charcoal">Taqvimga qo'shish</h2>
+        <p class="mt-3 font-sans text-[11.5px] text-muted leading-relaxed">
+          Ushbu quvonchli kunni unutmasligingiz uchun tadbirni telefoningiz taqvimiga qo'shib qo'ying.
+        </p>
+        <div class="mt-6 grid gap-2.5">
+          <a id="gcalBtn" class="btn btn-gold" target="_blank" rel="noopener noreferrer" href="#">
+            <i data-lucide="calendar-plus" class="w-4 h-4"></i><span>Google Taqvimga qo'shish</span>
+          </a>
+          <button id="icsBtn" class="btn btn-ghost" type="button">
+            <i data-lucide="download" class="w-4 h-4 text-champagne"></i><span>Taqvim faylini yuklab olish (.ics)</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. FOOTER ============ -->
+    <footer class="relative px-7 pt-4 pb-14 text-center overflow-hidden">
+      <span class="reveal rule w-24 mx-auto mb-8 block"></span>
+
+      <div class="reveal d1 flex justify-center mb-6">
+        <svg width="86" height="86" viewBox="0 0 200 200" aria-hidden="true">
+          <defs>
+            <radialGradient id="waxF" cx="38%" cy="32%">
+              <stop offset="0" stop-color="#B8483A"/><stop offset="55%" stop-color="#8E2B22"/><stop offset="100%" stop-color="#5F1712"/>
+            </radialGradient>
+            <filter id="waxEdgeF"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="3" seed="11" result="n"/>
+              <feDisplacementMap in="SourceGraphic" in2="n" scale="10" xChannelSelector="R" yChannelSelector="G"/></filter>
+          </defs>
+          <g filter="url(#waxEdgeF)"><circle cx="100" cy="100" r="76" fill="url(#waxF)"/></g>
+          <circle cx="100" cy="100" r="58" fill="none" stroke="rgba(0,0,0,.22)" stroke-width="2"/>
+          <text x="100" y="116" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif" font-style="italic" font-size="46" fill="#E8C88A">B&amp;S</text>
+        </svg>
+      </div>
+
+      <p class="reveal d2 font-serifel text-[18px] text-charcoal">Hurmat bilan: Ota-onalar</p>
+      <p class="reveal d3 mt-3 font-sans text-[11px] text-muted leading-relaxed">
+        Tashrifingiz uchun oldindan minnatdorchilik bildiramiz!
+      </p>
+
+      <div class="reveal d4 mt-8 flex items-center justify-center gap-3 text-champagne">
+        <span class="rule w-10"></span>
+        <i data-lucide="heart" class="w-3.5 h-3.5"></i>
+        <span class="rule w-10"></span>
+      </div>
+      <p class="reveal d5 mt-6 font-serifel italic text-[13px] gilded">Boburbek &amp; Sevinchxon — 04.10</p>
+    </footer>
+
+  </div>
+</main>
+
+<!-- ============ KONVERT (yopiq holat) ============ -->
+<div id="gate" class="paper">
+  <div class="gate-half gate-l"><div class="gate-inner">
+    <div class="paper w-full h-full relative flex flex-col items-center justify-between py-16 px-8 text-center">
+      <div class="ribbon"></div>
+      <div class="relative z-[2] band">
+        <p class="font-serifel text-[15px] tracking-[.16em] text-charcoal">Bismillahir Rohmanir Rohiym</p>
+        <span class="rule w-20 mx-auto mt-5 block"></span>
+      </div>
+      <div class="relative z-[2] band">
+        <p class="font-sans text-[10.5px] tracking-[.14em] text-muted leading-[2]">
+          Taklifnomani ochish uchun<br />muhrni bosing
+        </p>
+      </div>
+    </div>
+  </div></div>
+
+  <div class="gate-half gate-r"><div class="gate-inner">
+    <div class="paper w-full h-full relative flex flex-col items-center justify-between py-16 px-8 text-center">
+      <div class="ribbon"></div>
+      <div class="relative z-[2] band">
+        <p class="font-serifel text-[15px] tracking-[.16em] text-charcoal">Bismillahir Rohmanir Rohiym</p>
+        <span class="rule w-20 mx-auto mt-5 block"></span>
+      </div>
+      <div class="relative z-[2] band">
+        <p class="font-sans text-[10.5px] tracking-[.14em] text-muted leading-[2]">
+          Taklifnomani ochish uchun<br />muhrni bosing
+        </p>
+      </div>
+    </div>
+  </div></div>
+
+  <canvas id="burst" aria-hidden="true"></canvas>
+
+  <div id="sealWrap" role="button" tabindex="0" aria-label="Taklifnomani ochish">
+    <span id="sealHint"></span>
+    <div class="seal-half l">
+      <svg viewBox="0 0 200 200" width="168" height="168" aria-hidden="true">
+        <defs>
+          <radialGradient id="waxG" cx="38%" cy="30%">
+            <stop offset="0" stop-color="#C0503F"/><stop offset="48%" stop-color="#8E2B22"/><stop offset="100%" stop-color="#57140F"/>
+          </radialGradient>
+          <filter id="waxEdge"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" seed="5" result="n"/>
+            <feDisplacementMap in="SourceGraphic" in2="n" scale="11" xChannelSelector="R" yChannelSelector="G"/></filter>
+        </defs>
+        <g filter="url(#waxEdge)"><circle cx="100" cy="100" r="80" fill="url(#waxG)"/></g>
+        <circle cx="100" cy="100" r="62" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="2.5"/>
+        <circle cx="100" cy="100" r="56" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="1.5"/>
+        <ellipse cx="74" cy="66" rx="26" ry="16" fill="rgba(255,255,255,.14)" transform="rotate(-24 74 66)"/>
+        <text x="100" y="119" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif" font-style="italic" font-size="52" fill="#E8C88A">B&amp;S</text>
+      </svg>
+    </div>
+    <div class="seal-half r">
+      <svg viewBox="0 0 200 200" width="168" height="168" aria-hidden="true">
+        <g filter="url(#waxEdge)"><circle cx="100" cy="100" r="80" fill="url(#waxG)"/></g>
+        <circle cx="100" cy="100" r="62" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="2.5"/>
+        <circle cx="100" cy="100" r="56" fill="none" stroke="rgba(255,255,255,.10)" stroke-width="1.5"/>
+        <ellipse cx="74" cy="66" rx="26" ry="16" fill="rgba(255,255,255,.14)" transform="rotate(-24 74 66)"/>
+        <text x="100" y="119" text-anchor="middle" font-family="'Cormorant Garamond',Georgia,serif" font-style="italic" font-size="52" fill="#E8C88A">B&amp;S</text>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<!-- Musiqa -->
+<audio id="bgm" loop preload="auto">
+  <source src="./music.m4a" type="audio/mp4" />
+  <source src="./music.mp3" type="audio/mpeg" />
+</audio>
+<button id="musicBtn" type="button" aria-label="Musiqani yoqish yoki o'chirish">
+  <span class="disc"><i data-lucide="music" class="w-[18px] h-[18px]"></i></span>
+</button>
+
+<!-- Toast -->
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* =======================================================================
+     SOZLAMALAR — kerak bo'lsa faqat shu blokni o'zgartiring
+     ======================================================================= */
+  var CFG = {
+    // Hisoblagich nishoni va to'y boshlanish vaqti (O'zbekiston vaqti, UTC+05:00)
+    countdownISO:  "2026-10-04T18:00:00+05:00",
+    countdownLabel:"4-oktabr, soat 18:00",
+    eventStartISO: "2026-10-04T18:00:00+05:00",
+    eventEndISO:   "2026-10-04T23:00:00+05:00",
+    eventTitle:    "Boburbek va Sevinchxonning to'yi",
+    venueName:     "“Tanho” to'yxonasi",
+    venueAddress:  "Navbahor tumani, Beshrabot qo'rg'oni, Navoiy viloyati",
+    // Yandex Xaritalardagi aniq nuqta
+    lat: 40.226930,
+    lng: 65.305235,
+    yandexUrl: "https://yandex.uz/maps/org/tanxo/229357095401/"
+  };
+
+  var $  = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  var shell    = $("#shell");
+  var gate     = $("#gate");
+  var fx       = $("#fx");
+  var burst    = $("#burst");
+  var sealWrap = $("#sealWrap");
+  var musicBtn = $("#musicBtn");
+  var bgm      = $("#bgm");
+
+  /* =======================================================================
+     1. Ramkani moslash — konvert va zarrachalar "telefon" kengligida turadi
+     ======================================================================= */
+  function syncFrame() {
+    var r = shell.getBoundingClientRect();
+    [fx, gate].forEach(function (el) {
+      el.style.left  = r.left + "px";
+      el.style.width = r.width + "px";
+    });
+    musicBtn.style.left = (r.left + r.width - 74) + "px";
+    sizeCanvas(fx, r.width, window.innerHeight);
+    sizeCanvas(burst, r.width, window.innerHeight);
+  }
+  function sizeCanvas(cv, w, h) {
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    cv.width  = Math.max(1, Math.round(w * dpr));
+    cv.height = Math.max(1, Math.round(h * dpr));
+    cv.style.width  = w + "px";
+    cv.style.height = h + "px";
+    cv.getContext("2d").setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+  syncFrame();
+  window.addEventListener("resize", syncFrame);
+  window.addEventListener("orientationchange", function () { setTimeout(syncFrame, 220); });
+
+  /* =======================================================================
+     2. Fondagi oltin zarrachalar va gulbarglar (HTML5 Canvas)
+     ======================================================================= */
+  (function ambient() {
+    var ctx = fx.getContext("2d");
+    var parts = [];
+    function W() { return parseFloat(fx.style.width) || 380; }
+    function H() { return parseFloat(fx.style.height) || 700; }
+
+    function make(initial) {
+      var isPetal = Math.random() < 0.34;
+      return {
+        x: Math.random() * W(),
+        y: initial ? Math.random() * H() : H() + 20,
+        r: isPetal ? 3.4 + Math.random() * 3.6 : 0.8 + Math.random() * 1.7,
+        sp: 0.16 + Math.random() * 0.42,
+        sway: 0.5 + Math.random() * 1.5,
+        ph: Math.random() * Math.PI * 2,
+        rot: Math.random() * Math.PI * 2,
+        vr: (Math.random() - 0.5) * 0.012,
+        a: 0.18 + Math.random() * 0.45,
+        petal: isPetal
+      };
+    }
+    for (var i = 0; i < 46; i++) parts.push(make(true));
+
+    function drawPetal(p) {
+      ctx.save();
+      ctx.translate(p.x, p.y);
+      ctx.rotate(p.rot);
+      var g = ctx.createLinearGradient(-p.r, -p.r, p.r, p.r);
+      g.addColorStop(0, "rgba(240,225,192," + p.a + ")");
+      g.addColorStop(1, "rgba(197,168,128," + (p.a * 0.75) + ")");
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.ellipse(0, 0, p.r, p.r * 0.5, 0, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    }
+
+    function frame() {
+      ctx.clearRect(0, 0, W(), H());
+      for (var i = 0; i < parts.length; i++) {
+        var p = parts[i];
+        p.y -= p.sp;
+        p.ph += 0.008;
+        p.rot += p.vr;
+        p.x += Math.sin(p.ph) * p.sway * 0.35;
+        if (p.y < -30) parts[i] = make(false);
+        if (p.petal) {
+          drawPetal(p);
+        } else {
+          ctx.beginPath();
+          ctx.fillStyle = "rgba(212,175,55," + p.a + ")";
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.beginPath();
+          ctx.fillStyle = "rgba(240,225,192," + (p.a * 0.35) + ")";
+          ctx.arc(p.x, p.y, p.r * 2.6, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+      requestAnimationFrame(frame);
+    }
+    if (!reduceMotion) requestAnimationFrame(frame);
+  })();
+
+  /* =======================================================================
+     3. MUSIQA — sayt ochilishi bilan boshlanadi
+     ======================================================================= */
+  var audioOk = true, gestureBound = false;
+  var GESTURES = ["pointerdown", "touchstart", "keydown"];
+
+  bgm.addEventListener("error", function () { audioOk = false; }, true);
+  bgm.addEventListener("playing", function () {
+    musicBtn.classList.add("playing");
+    setIcon("pause");
+    unbindGestures();
+    fadeTo(0.55);
+  });
+  bgm.addEventListener("pause", function () {
+    musicBtn.classList.remove("playing");
+    setIcon("music");
+  });
+
+  function attemptPlay(silent) {
+    if (!audioOk) { if (!silent) toast("Musiqa fayli topilmadi."); return; }
+    if (!bgm.paused) return;
+    if (bgm.volume > 0.05) bgm.volume = 0;
+    var p = bgm.play();
+    if (p && p.catch) {
+      p.catch(function () {
+        // Brauzer avtomatik ijroni to'sdi — birinchi teginishda yoqamiz
+        bindGestures();
+        if (!silent) toast("Musiqani yoqish uchun tugmani bosing.");
+      });
+    }
+  }
+  function gestureHandler() { attemptPlay(true); }
+  function bindGestures() {
+    if (gestureBound) return;
+    gestureBound = true;
+    GESTURES.forEach(function (e) { document.addEventListener(e, gestureHandler, { passive: true }); });
+  }
+  function unbindGestures() {
+    if (!gestureBound) return;
+    gestureBound = false;
+    GESTURES.forEach(function (e) { document.removeEventListener(e, gestureHandler, { passive: true }); });
+  }
+  function fadeTo(target) {
+    var step = (target - bgm.volume) / 28;
+    if (step === 0) return;
+    var t = setInterval(function () {
+      var v = bgm.volume + step;
+      if ((step > 0 && v >= target) || (step < 0 && v <= target)) {
+        bgm.volume = Math.max(0, Math.min(1, target));
+        clearInterval(t);
+        return;
+      }
+      bgm.volume = Math.max(0, Math.min(1, v));
+    }, 40);
+  }
+  function setIcon(name) {
+    musicBtn.querySelector(".disc").innerHTML =
+      '<i data-lucide="' + name + '" class="w-[18px] h-[18px]"></i>';
+    if (window.lucide) lucide.createIcons();
+  }
+  musicBtn.addEventListener("click", function () {
+    if (bgm.paused) attemptPlay(false);
+    else bgm.pause();
+  });
+
+  // Sayt ochilishi bilan urinib ko'ramiz; to'silsa — birinchi teginishda yoqiladi
+  musicBtn.classList.add("show");
+  attemptPlay(true);
+  bindGestures();
+
+  /* =======================================================================
+     4. Konvertni ochish — muhr yorilishi + oltin chang portlashi
+     ======================================================================= */
+  var opened = false;
+
+  function goldBurst() {
+    if (reduceMotion) return;
+    var ctx = burst.getContext("2d");
+    var W = parseFloat(burst.style.width);
+    var H = parseFloat(burst.style.height);
+    var cx = W / 2, cy = H / 2;
+    var sparks = [];
+    for (var i = 0; i < 150; i++) {
+      var ang = Math.random() * Math.PI * 2;
+      var spd = 1.2 + Math.random() * 6.5;
+      sparks.push({
+        x: cx + (Math.random() - 0.5) * 40,
+        y: cy + (Math.random() - 0.5) * 40,
+        vx: Math.cos(ang) * spd,
+        vy: Math.sin(ang) * spd - 1.1,
+        r: 0.7 + Math.random() * 2.4,
+        life: 1
+      });
+    }
+    var t0 = performance.now();
+    (function run(now) {
+      var dt = Math.min((now - t0) / 16.7, 3); t0 = now;
+      ctx.clearRect(0, 0, W, H);
+      var alive = false;
+      for (var i = 0; i < sparks.length; i++) {
+        var s = sparks[i];
+        if (s.life <= 0) continue;
+        alive = true;
+        s.x += s.vx * dt; s.y += s.vy * dt;
+        s.vy += 0.055 * dt; s.vx *= 0.985; s.vy *= 0.985;
+        s.life -= 0.011 * dt;
+        ctx.beginPath();
+        ctx.fillStyle = "rgba(226,192,120," + Math.max(0, s.life) + ")";
+        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      if (alive) requestAnimationFrame(run);
+      else ctx.clearRect(0, 0, W, H);
+    })(t0);
+  }
+
+  function openGate() {
+    if (opened) return;
+    opened = true;
+    sealWrap.classList.add("press");
+    sealWrap.setAttribute("aria-expanded", "true");
+    goldBurst();
+    attemptPlay(true);
+
+    setTimeout(function () { gate.classList.add("opening"); }, 240);
+    setTimeout(function () {
+      document.body.classList.remove("locked");
+      startReveal();
+    }, 820);
+    setTimeout(function () {
+      gate.classList.add("gone");
+      window.scrollTo(0, 0);
+    }, 2150);
+  }
+
+  sealWrap.addEventListener("click", openGate);
+  sealWrap.addEventListener("keydown", function (e) {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openGate(); }
+  });
+
+  /* =======================================================================
+     5. Bo'limlarning ochilib chiqishi
+     ======================================================================= */
+  function revealAll() { $$(".reveal").forEach(function (el) { el.classList.add("in"); }); }
+
+  function startReveal() {
+    var items = $$(".reveal");
+
+    // Birinchi ekrandagi elementlar darhol ochiladi
+    items.forEach(function (el) {
+      if (el.getBoundingClientRect().top < window.innerHeight * 0.96) el.classList.add("in");
+    });
+
+    if (!("IntersectionObserver" in window)) { revealAll(); return; }
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.14, rootMargin: "0px 0px -8% 0px" });
+    items.forEach(function (el) { if (!el.classList.contains("in")) io.observe(el); });
+
+    // Xavfsizlik chorasi: kuzatuvchi ishlamay qolsa ham matn ko'rinmay qolmaydi
+    setTimeout(function () { if (!document.querySelector(".reveal.in")) revealAll(); }, 2500);
+  }
+
+  /* =======================================================================
+     6. Jonli hisoblagich
+     ======================================================================= */
+  (function countdown() {
+    var target = new Date(CFG.countdownISO).getTime();
+    var el = { d: $("#cd-d"), h: $("#cd-h"), m: $("#cd-m"), s: $("#cd-s") };
+    var note = $("#cdNote");
+    if (note) note.textContent = CFG.countdownLabel;
+
+    function pad(n) { return n < 10 ? "0" + n : String(n); }
+
+    function tick() {
+      var diff = target - Date.now();
+      if (diff <= 0) {
+        el.d.textContent = el.h.textContent = el.m.textContent = el.s.textContent = "00";
+        if (note) note.textContent = "Nikoh kechasi boshlandi — xush kelibsiz!";
+        clearInterval(timer);
+        return;
+      }
+      var sec = Math.floor(diff / 1000);
+      el.d.textContent = pad(Math.floor(sec / 86400));
+      el.h.textContent = pad(Math.floor(sec % 86400 / 3600));
+      el.m.textContent = pad(Math.floor(sec % 3600 / 60));
+      el.s.textContent = pad(sec % 60);
+    }
+    tick();
+    var timer = setInterval(tick, 1000);
+  })();
+
+  /* =======================================================================
+     7. Xarita havolalari
+     ======================================================================= */
+  var coords = CFG.lat + "," + CFG.lng;
+  var gmapUrl = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(coords);
+  $("#gmapBtn").href = gmapUrl;
+  $("#ymapBtn").href = CFG.yandexUrl;
+  $("#mapCard").addEventListener("click", function () { window.open(gmapUrl, "_blank", "noopener"); });
+
+  /* =======================================================================
+     8. Taqvimga qo'shish (Google Calendar + .ics)
+     ======================================================================= */
+  function utcStamp(iso) {
+    return new Date(iso).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+  }
+  var startZ = utcStamp(CFG.eventStartISO);
+  var endZ   = utcStamp(CFG.eventEndISO);
+  var calDetails = "Boburbek va Sevinchxonning nikoh to'yi tantanasi. Sizni aziz mehmonimiz sifatida kutib qolamiz!";
+  var calLocation = CFG.venueName + ", " + CFG.venueAddress;
+
+  $("#gcalBtn").href =
+    "https://calendar.google.com/calendar/render?action=TEMPLATE" +
+    "&text=" + encodeURIComponent(CFG.eventTitle) +
+    "&dates=" + startZ + "/" + endZ +
+    "&details=" + encodeURIComponent(calDetails) +
+    "&location=" + encodeURIComponent(calLocation);
+
+  $("#icsBtn").addEventListener("click", function () {
+    var ics = [
+      "BEGIN:VCALENDAR",
+      "VERSION:2.0",
+      "PRODID:-//Boburbek va Sevinchxon//Taklifnoma//UZ",
+      "CALSCALE:GREGORIAN",
+      "METHOD:PUBLISH",
+      "BEGIN:VEVENT",
+      "UID:" + startZ + "-boburbek-sevinchxon@toy",
+      "DTSTAMP:" + utcStamp(new Date().toISOString()),
+      "DTSTART:" + startZ,
+      "DTEND:" + endZ,
+      "SUMMARY:" + CFG.eventTitle,
+      "DESCRIPTION:" + calDetails,
+      "LOCATION:" + calLocation.replace(/,/g, "\\,"),
+      "GEO:" + CFG.lat + ";" + CFG.lng,
+      "BEGIN:VALARM",
+      "TRIGGER:-PT2H",
+      "ACTION:DISPLAY",
+      "DESCRIPTION:" + CFG.eventTitle,
+      "END:VALARM",
+      "END:VEVENT",
+      "END:VCALENDAR"
+    ].join("\r\n");
+
+    var blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "boburbek-sevinchxon-toy.ics";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1500);
+    toast("Taqvim fayli yuklab olindi.");
+  });
+
+  /* =======================================================================
+     9. Toast
+     ======================================================================= */
+  var toastEl = $("#toast"), toastTimer;
+  function toast(msg) {
+    toastEl.textContent = msg;
+    toastEl.classList.add("show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toastEl.classList.remove("show"); }, 3200);
+  }
+
+  /* =======================================================================
+     10. Ikonkalar
+     ======================================================================= */
+  if (window.lucide) lucide.createIcons();
+  window.addEventListener("load", function () {
+    if (window.lucide) lucide.createIcons();
+    syncFrame();
+    attemptPlay(true);
+  });
+})();
+</script>
+
+</body>
+</html>

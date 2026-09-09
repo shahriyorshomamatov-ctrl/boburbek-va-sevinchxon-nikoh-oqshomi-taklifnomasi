@@ -611,6 +611,16 @@
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  // Qayta yuklanganda brauzer eski holatni tiklamasin — sayt doim boshidan ochiladi
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  function jumpTop() {
+    var html = document.documentElement, prev = html.style.scrollBehavior;
+    html.style.scrollBehavior = "auto";
+    window.scrollTo(0, 0);
+    html.style.scrollBehavior = prev;
+  }
+  jumpTop();
+
   var shell    = $("#shell");
   var gate     = $("#gate");
   var fx       = $("#fx");
@@ -838,11 +848,12 @@
     setTimeout(function () { gate.classList.add("opening"); }, 240);
     setTimeout(function () {
       document.body.classList.remove("locked");
+      jumpTop();
       startReveal();
     }, 820);
     setTimeout(function () {
       gate.classList.add("gone");
-      window.scrollTo(0, 0);
+      jumpTop();
     }, 2150);
   }
 
